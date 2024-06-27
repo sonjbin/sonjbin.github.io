@@ -6,38 +6,38 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Jungbin Son 
+title: Machine learning engineer
+email: sonjbin@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: 010-9242-0995
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+# website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+# twitter_username: jekyllrb
+github_username:  sonjbin
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: sonjbin
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+googlescholar_username: sJdNmXAAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,15 +50,18 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/jungbin_son.jpg #Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  I'm Jungbin Son and I'm a machine learning engineer specializing in <mark>natural language processing</mark> and <mark>computer vision</mark>.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I'm interested in Multi-model large language modeling and document language modeling
+# Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+
+# You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#   - Lists
+#   - Tables
+#   - <a href="google.com">Links</a>
+#   - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
@@ -67,52 +70,77 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
+        title: Lomin
+        description: |
+          - TBD
+        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # quote: >
+        #   Short overview of the project (optional)
+        # description: | # this will include new lines to allow paragraphs
+        #   Description about the work on/with the project
+  - title: Publications
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+      - layout: top
+        title: Time-Aware Representation Learning for Time-Sensitive Question Answering
+        sub_title: "Findings of the Association for Computational Linguistics: EMNLP 2023 (EMNLP-Findings 2023, Short)"
+       # caption: 2023 EMNLP Findings
+        # link: [Click me](http://www.google.com)
+        description: |
+            - We addressed the problem that QA models could not understand time by 
+            training with a new task and synthetic data. The model trained with Time-Context 
+            dependent Span Extraction (TCSE) outperforms baseline models up to 6.97 of the F1-score in the TimeQA dataset.
+            
+            <a href="https://aclanthology.org/2023.findings-emnlp.6/" style="display: inline-block; padding: 5px 10px; background-color: #333; color: #fff; text-decoration: none; border-radius: 5px;">Paper</a>
+            <a href="https://github.com/sonjbin/TCQA" style="display: inline-block; padding: 5px 10px; background-color: #333; color: #fff; text-decoration: none; border-radius: 5px;">Code</a>
+      - layout: top
+        title: An Efficient and Effective Document Deduplication by Using Similarity-Based Clustering
+        sub_title: Korea Computer Congress 2021 (KCC 2021, 1577-1579.)
+       # caption: 2023 EMNLP Findings
+        # link: [Click me](http://www.google.com)
+        description: |
+             - We analyzed methods of calculating a similarity between Korean news 
+             data and implemented deduplicate algorithm using clustering. 
+             The proposed method achieved 380 times faster runtime than previous deduplication algorithms, and it achieved 4% accuracy improvement.
+            
+             <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10583367" style="display: inline-block; padding: 5px 10px; background-color: #333; color: #fff; text-decoration: none; border-radius: 5px;">Paper</a>
+            
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+      - layout: top-left
+        title: KAIST
+        sub_title: M.S. in Computer Science
+        caption: Sep. 2021 - Aug. 2023
+        # quote: >
+        #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+          **Research on Question answering** 
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+          Lab: <a href="https://uilab.kr/">UILab</a>
+
+          Advisor: <a href="https://aliceoh9.github.io/">Alice Oh</a>
+      - layout: top-left
+        title: KAIST
+        sub_title: B.S. in Computer Science
+        caption: Mar. 2017 - Aug. 2021
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
-footer_show_references: true
+# footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
