@@ -99,8 +99,9 @@ content:
             training with a new task and synthetic data. The model trained with Time-Context 
             dependent Span Extraction (TCSE) outperforms baseline models up to 6.97 of the F1-score in the TimeQA dataset.
             
-            <a href="https://aclanthology.org/2023.findings-emnlp.6/" style="display: inline-block; padding: 5px 10px; background-color: #333; color: #fff; text-decoration: none; border-radius: 5px;">Paper</a>
-            <a href="https://github.com/sonjbin/TCQA" style="display: inline-block; padding: 5px 10px; background-color: #333; color: #fff; text-decoration: none; border-radius: 5px;">Code</a>
+
+              <a href="https://aclanthology.org/2023.findings-emnlp.6/" class="btn">Paper</a>
+              <a href="https://github.com/sonjbin/TCQA" class="btn">Code</a>
       - layout: top
         title: An Efficient and Effective Document Deduplication by Using Similarity-Based Clustering
         sub_title: Korea Computer Congress 2021 (KCC 2021, 1577-1579.)
@@ -111,7 +112,7 @@ content:
              data and implemented deduplicate algorithm using clustering. 
              The proposed method achieved 380 times faster runtime than previous deduplication algorithms, and it achieved 4% accuracy improvement.
             
-             <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10583367" style="display: inline-block; padding: 5px 10px; background-color: #333; color: #fff; text-decoration: none; border-radius: 5px;">Paper</a>
+               <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10583367" class="btn">Paper</a>
             
   - title: Education
     layout: list
@@ -126,9 +127,13 @@ content:
           I conducted research on **time-sensitive question answering**, which is one of the most challenging tasks for state-of-the-art language models. 
           I proposed data generation techniques suitable for this task and modeling methods using contrastive learning.
 
-          **Lab**: <a href="https://uilab.kr/">UILab</a>
-
-          **Advisor**: <a href="https://aliceoh9.github.io/">Alice Oh</a>
+          <div class="link-group">
+            <span class="link-label">Lab:</span>
+            <a href="https://uilab.kr/" class="link-btn">UILab 🔗</a>
+            
+            <span class="link-label">Advisor:</span>
+            <a href="https://aliceoh9.github.io/" class="link-btn">Alice Oh 🔗</a>
+          </div>
       - layout: top-left
         title: KAIST
         sub_title: B.S. in Computer Science
