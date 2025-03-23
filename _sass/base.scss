@@ -113,18 +113,18 @@ html {
 
 .btn {
   display: inline-block;
-  padding: 5px 12px;
+  padding: 5px 7px;
   margin: 5px 5px 5px 0;
-  background-color: #333;
-  color: #fff;
+  background-color: #0F4C81;
+  color: #F5F0E1;
   text-decoration: none;
   border-radius: 6px;
   transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease;
 }
 
 .btn:hover {
-  background-color: #4a90e2; /* 부드러운 파란색으로 강조 */
-  color: #ffffff; /* 흰색으로 글자를 더 명확히 */
+  background-color: #F5F0E1; /* 라이트 베이지 */
+  color: #0F4C81; /* 클래식 블루 */
   transform: scale(1.05); /* 확대 효과로 강조 */
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2); /* 약간의 그림자로 입체감 추가 */
 }
@@ -142,8 +142,8 @@ html {
 .link-btn {
   display: inline-block;
   padding: 4px 10px;
-  background-color: #444;
-  color: #fff;
+  background-color: #0F4C81;
+  color: #F5F0E1;
   text-decoration: none;
   border-radius: 6px;
   font-size: 1.3em;
@@ -152,10 +152,11 @@ html {
 }
 
 .link-btn:hover {
-  background-color: #1e90ff;
-  transform: scale(1.05);
+  background-color: #F5F0E1; /* 라이트 베이지 */
+  color: #0F4C81; /* 클래식 블루 */
+  transform: scale(1.05); /* 확대 효과로 강조 */
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2); /* 약간의 그림자로 입체감 추가 */
 }
-
 
 body {
   background: #ffffff;
