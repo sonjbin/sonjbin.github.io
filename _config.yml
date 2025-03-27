@@ -52,9 +52,11 @@ googlescholar_username: sJdNmXAAAAAJ
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/jungbin_son.jpg #Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  I'm Jungbin Son and I'm a machine learning engineer specializing in <mark>natural language processing</mark> and <mark>computer vision</mark>.
+    Hi, I’m Jungbin Son, a machine learning engineer specializing in <mark>natural language processing</mark> and <mark>computer vision</mark>.
+    I focus on developing multi-modal large language models (MLLMs) for understanding document images and extracting structured information like key-value pairs and tables.
 
-  I'm interested in Multi-model large language modeling and document language modeling
+    My work spans from designing models that combine vision and text to deploying them efficiently using VLLM-based inference frameworks.
+    I’m especially interested in document language modeling, OCR integration, and scalable model serving for real-world applications.
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
 # You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
