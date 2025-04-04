@@ -202,3 +202,8 @@ exclude : [
   "scripts/",
   "docker-compose.yml",
   ]
+  
+sass:
+  sass_dir: _sass
+  style: compressed
+  syntax: :scss
