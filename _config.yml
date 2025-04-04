@@ -52,11 +52,11 @@ googlescholar_username: sJdNmXAAAAAJ
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/jungbin_son.jpg #Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-    Hi, I’m Jungbin Son, a machine learning engineer specializing in <mark>natural language processing</mark> and <mark>computer vision</mark>.
+    Hi, I'm Jungbin Son, a machine learning engineer specializing in <mark>natural language processing</mark> and <mark>computer vision</mark>.
     I focus on developing multi-modal large language models (MLLMs) for understanding document images and extracting structured information like key-value pairs and tables.
 
     My work spans from designing models that combine vision and text to deploying them efficiently using VLLM-based inference frameworks.
-    I’m especially interested in document language modeling, OCR integration, and scalable model serving for real-world applications.
+    I'm especially interested in document language modeling, OCR integration, and scalable model serving for real-world applications.
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
 # You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
@@ -66,15 +66,43 @@ about_content: | # this will include new lines to allow paragraphs
 #   - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: grouped
     content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Lomin
-        description: |
-          - TBD
+      - company: Lomin
+        period: Oct. 2023 - Present
+        projects:
+          - title: Vision-Language Model for General Document Understanding
+            period: Mar. 2025 - present
+            description:
+              - Designed and developed a large-scale VLM to extract key-value pairs and tables across diverse document types.
+              - Led the pipeline from annotation schema definition to model training.
+          - title: Vision-Language Model for Information Extraction in Trade Documents
+            period: Sep. 2024 - Jan. 2025
+            description:
+              - Fine-tuned sVLM for unstructured trade documents. Implemented task-specific prompting, pseudo-labeling, and efficient training techniques to extract key-values and complex tables.
+              - Achieved an average recognition accuracy of 96% across 12 types of trade documents.
+          - title: Model Serving Pipeline & K-V, Table Recognition
+            period: Jun. 2024 - Oct. 2024
+            description:
+              - Developed a scalable pipeline for document classification, key-value extraction, and table recognition.
+              - Proposed bbox sorting algorithms and integrated models with Triton for efficient deployment.
+          - title: E2E OCR Modeling
+            period: Feb. 2024 - Mar. 2024
+            description:
+              - Designed end-to-end OCR systems for real-world documents like instrument panels and license plates.
+              - Achieved a recognition accuracy of over 95%.
+          - title: Synthetic Data for Multi-Lingual OCR
+            period: Jan. 2024 - Mar. 2024
+            description:
+              - Built diverse synthetic datasets for multilingual OCR, covering complex scripts like Korean and Chinese to enhance the robustness of character detection and recognition.
+              - Achieved an average recognition accuracy of 88% across printed and handwritten Korean and Chinese characters.
+          - title: Document Classifier
+            period: Oct. 2023 - Nov. 2023
+            description:
+              - Developed robust document classification models achieving 98% accuracy on noisy ID images.
+              - Built a zero-shot classifier capable of recognizing unseen document types with 99% accuracy.
+
         # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         # link_text: Link Text
         # additional_links:
