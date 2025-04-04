@@ -192,3 +192,86 @@ p.quote {
     margin-top: 1rem;
   }
 }
+
+.company-block {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.company-left {
+  padding-top: 4px;
+}
+
+.company-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #222;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.company-right {
+  padding-left: 1rem;
+}
+
+.with-vertical-line {
+  border-left: 2px solid #999;
+  padding-left: 1.2rem;
+  margin-left: 0.1rem;
+  margin-bottom: 1.2rem;
+}
+
+/* 기본 패딩은 빼줌 */
+.project-item {
+  margin-bottom: 0;
+}
+
+.project-item p {
+  line-height: 1.6;
+  margin: 0;
+}
+
+.project-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.thin-line {
+  border: none;
+  border-top: 1px solid #ccc;
+  width: 90%;
+  margin-left: 0.3rem;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.thick-line {
+  border: none;
+  border-top: 2px solid #000;
+  width: 100%;
+  margin: 32px 0;
+}
+
+.company-period {
+  font-size: 1.5em;
+  color: #888;
+  font-style: italic;
+}
+
+.project-period {
+  font-size: 1.3em;
+  color: #888;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.project-description li {
+  margin-bottom: 5px;
+  line-height: 1.5;
+}

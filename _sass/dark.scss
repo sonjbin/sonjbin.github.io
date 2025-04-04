@@ -1,15 +1,84 @@
 .dark {
-  background-color: #222;
+  background-color: #121212;
   color: #e6e6e6;
-}
 
-.dark {
   mark {
-    color: #222;
+    color: #000000;
     background-color: #e6e6e6;
   }
 
   a {
     color: #477dca;
   }
+}
+
+.dark-mode-toggle {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  padding: 8px 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid #333;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #333;
+}
+
+/* 토글 아이콘 스타일 */
+.toggle-icon {
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+html.dark .dark-mode-toggle {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-color: white;
+}
+
+.dark-mode-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-color: #fff;
+}
+
+.dark-mode-toggle:active {
+  transform: scale(0.95);
+  transition: transform 0.1s ease;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+html.dark .dark-mode-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  border-color: #333;
+}
+
+html.dark body {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+html.dark a {
+  color: #F5F0E1;
+}
+
+html.dark mark {
+  background-color: #F5F0E1;
+  color: #333333;
+}
+
+html.dark .layout,
+html.dark .details,
+html.dark .content {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+html.dark .company-title {
+  color: #f0f0f0;
 }

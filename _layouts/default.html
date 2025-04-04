@@ -3,6 +3,8 @@
 
 {%- include head.html -%}
 
+<script src="{{ '/assets/js/dark-mode.js' | relative_url }}"></script>
+
 <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
 
   {%- include header.html -%}
