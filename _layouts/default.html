@@ -3,9 +3,6 @@
 
 {%- include head.html -%}
 
-<script src="{{ '/assets/js/dark-mode.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/sidebar.js' | relative_url }}"></script>
-
 <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
   <div class="page-container">
     <div class="sidebar-container">
@@ -38,9 +35,13 @@
       {%- include footer.html -%}
     </div>
   </div>
+
+  <script src="{{ '/assets/js/dark-mode.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/sidebar.js' | relative_url }}"></script>
   {% if site.darkmode == false %}
     <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
   {% endif %}
+  <script src="{{ '/assets/js/easter-egg.js' | relative_url }}"></script>
 </body>
 
 </html>
