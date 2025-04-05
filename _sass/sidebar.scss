@@ -23,8 +23,14 @@
 }
 
 /* 사이드바 스타일 */
-.sidebar {
+html .sidebar {
   margin-top: 0px;
+  position: fixed;
+  left: 20px;
+  top: 80px;
+  z-index: 1000;
+  background-color: transparent;
+  padding: 20px;
 }
 
 .sidebar a:hover {
@@ -48,11 +54,10 @@
   font-size: 16px;
   transition: color 0.3s ease;
   display: block;
-  padding: 8px 0;
 }
 
 .sidebar nav ul li a:hover {
-  color: #0F4C81;
+  color: #007BFF;
   transform: scale(1.15);
   transition: transform 0.2s ease;
   
@@ -60,7 +65,7 @@
 
 /* 다크모드 스타일 */
 html.dark .sidebar-container {
-  background-color: #262626;
+  background-color: rgba(38, 38, 38, 0.9);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -69,7 +74,7 @@ html.dark .main-container {
 }
 
 html.dark .sidebar {
-  background-color: #262626;
+  background-color: transparent;
   color: #ffffff;
 }
 
