@@ -3,6 +3,7 @@
 @import "type";
 @import "dark";
 @import "icons";
+@import "sidebar";
 
 .header-right p {
   margin-bottom: 3px;
@@ -274,4 +275,35 @@ p.quote {
 .project-description li {
   margin-bottom: 5px;
   line-height: 1.5;
+}
+
+/* 사이드바 기본 스타일 */
+.sidebar {
+  position: fixed;
+  left: 20px;
+  top: 80px;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar nav ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.sidebar nav ul li a:hover {
+  color: #007BFF;
 }
