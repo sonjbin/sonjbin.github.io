@@ -11,8 +11,19 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
-  if (localStorage.getItem('theme') === 'dark') {
+  const savedTheme = localStorage.getItem('theme');
+
+  if (savedTheme === 'dark') {
     html.classList.add('dark');
+  } else if (savedTheme === 'light') {
+    html.classList.remove('dark');
+  } else {
+    // 저장된 테마가 없으면 브라우저 다크모드 감지
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      html.classList.add('dark');
+    } else {
+      html.classList.remove('dark');
+    }
   }
   updateIcon();
 

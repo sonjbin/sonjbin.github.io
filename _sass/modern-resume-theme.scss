@@ -295,3 +295,21 @@ p.quote {
     max-width: 70%;
   }
 }
+
+
+
+@media (max-width: 768px) {
+  body {
+    transform: scale(0.8);  /* 화면 80%로 축소 */
+    transform-origin: top left;
+    width: 125%; /* 축소한 만큼 보정 */
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    transform: scale(0.7);  /* 화면 더 작아지면 70%로 축소 */
+    transform-origin: top left;
+    width: 140%; /* 축소한 만큼 보정 */
+  }
+}
