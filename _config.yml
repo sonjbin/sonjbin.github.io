@@ -66,42 +66,44 @@ about_content: | # this will include new lines to allow paragraphs
 #   - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: Projects
+  - title: Work Experience
     layout: grouped
     content:
       - company: Lomin
         period: Oct. 2023 - Present
         projects:
           - title: Vision-Language Model for General Document Understanding
-            period: Mar. 2025 - present
+            period: Mar. 2025 - Present
             description:
-              - Designed and developed a large-scale VLM to extract key-value pairs and tables across diverse document types.
-              - Led the pipeline from annotation schema definition to model training.
-          - title: Vision-Language Model for Information Extraction in Trade Documents
+              - "<b>Contribution</b>: Designed and developed a large-scale VLM for key-value and table extraction across diverse document types. Led end-to-end pipeline from annotation schema design to model training."
+              - "<b>Result</b>: Ongoing"
+          - title: Domain specific Vision-Language Model for Information Extraction
             period: Sep. 2024 - Jan. 2025
             description:
-              - Fine-tuned sVLM for unstructured trade documents. Implemented task-specific prompting, pseudo-labeling, and efficient training techniques to extract key-values and complex tables.
-              - Achieved an average recognition accuracy of 96% across 12 types of trade documents.
-          - title: Model Serving Pipeline & K-V, Table Recognition
+              - "<b>Contribution</b>: Fine-tuned a VLM for unstructured trade documents using task-specific prompting, pseudo-labeling, and efficient training techniques."
+              - "<b>Result</b>: Achieved 96% average recognition accuracy across 12 types of trade documents."
+          - title: Table Recognition & Model Serving Pipeline
             period: Jun. 2024 - Oct. 2024
             description:
-              - Developed a scalable pipeline for document classification, key-value extraction, and table recognition.
-              - Proposed bbox sorting algorithms and integrated models with Triton for efficient deployment.
-          - title: E2E OCR Modeling
+              - "<b>Contribution</b>: Developed a scalable pipeline for table recognition, proposed a novel bbox sorting algorithm, and served the model using Triton Inference Server "
+              - "<b>Result</b>: Successfully deployed models with real-time inference capability."
+          - title: End-to-End OCR Modeling
             period: Feb. 2024 - Mar. 2024
             description:
-              - Designed end-to-end OCR systems for real-world documents like instrument panels and license plates.
-              - Achieved a recognition accuracy of over 95%.
-          - title: Synthetic Data for Multi-Lingual OCR
+              - "<b>Contribution</b>: Designed end-to-end OCR systems for instrument panel and license plate recognition."
+              - "<b>Result</b>: Achieved over 95% recognition accuracy on real-world noisy datasets."
+          - title: Synthetic Data Generation for Multi-Lingual OCR
             period: Jan. 2024 - Mar. 2024
             description:
-              - Built diverse synthetic datasets for multilingual OCR, covering complex scripts like Korean and Chinese to enhance the robustness of character detection and recognition.
-              - Achieved an average recognition accuracy of 88% across printed and handwritten Korean and Chinese characters.
-          - title: Document Classifier
+              - "<b>Contribution</b>: Built diverse synthetic datasets covering Korean and Chinese scripts to improve multilingual OCR robustness."
+              - "<b>Result</b>: Achieved 88% recognition accuracy across printed and handwritten samples."
+          - title: Document Image Classification
             period: Oct. 2023 - Nov. 2023
             description:
-              - Developed robust document classification models achieving 98% accuracy on noisy ID images.
-              - Built a zero-shot classifier capable of recognizing unseen document types with 99% accuracy.
+              - "<b>Contribution</b>: Developed robust document classification models for noisy ID images, including FAX documents. Built a zero-shot classifier for recognizing unseen document types."
+              - "<b>Result</b>: Achieved 98% classification accuracy and 99% zero-shot accuracy."
+
+
 
         # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         # link_text: Link Text
