@@ -27,6 +27,26 @@
   transition: all 0.3s ease;
   color: #333;
 }
+/* 버튼, 링크 버튼 */
+html.dark .btn {
+  background-color: #F5F0E1;
+  color: #0F4C81;
+}
+
+html.dark .btn:hover {
+  background-color: #0F4C81;
+  color: #F5F0E1;
+}
+
+html.dark .link-btn {
+  background-color: #F5F0E1;
+  color: #0F4C81;
+}
+
+html.dark .link-btn:hover {
+  background-color: #0F4C81;
+  color: #F5F0E1;
+}
 
 /* 토글 아이콘 스타일 */
 .toggle-icon {
