@@ -11,7 +11,7 @@
 }
 
 .sidebar-container {
-  width: 170px;
+  width: 200px;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 20px;
   position: fixed;
@@ -85,3 +85,22 @@ html.dark .sidebar a {
 html.dark .sidebar a:hover {
   color: #2585d8;
 } 
+
+@media (max-width: 768px) {
+  .row.clearfix.layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .row.clearfix.layout .details {
+    flex: 0 0 30%;
+    max-width: 30%;
+    padding-right: 10px;
+  }
+
+  .row.clearfix.layout .content {
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+}
