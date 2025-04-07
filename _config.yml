@@ -85,7 +85,7 @@ content:
           - title: Table Recognition & Model Serving Pipeline
             period: Jun. 2024 - Oct. 2024
             description:
-              - "<b>Contribution</b>: Developed a scalable pipeline for table recognition, proposed a novel bbox sorting algorithm, and served the model using Triton Inference Server "
+              - "<b>Contribution</b>: Developed a scalable pipeline for table recognition, proposed a novel bbox sorting algorithm, and served the model using Triton Inference Server."
               - "<b>Result</b>: Successfully deployed models with real-time inference capability."
           - title: End-to-End OCR Modeling
             period: Feb. 2024 - Mar. 2024
