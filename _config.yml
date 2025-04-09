@@ -77,7 +77,7 @@ content:
             description:
               - "<b>Contribution</b>: Designed and developed a large-scale VLM for key-value and table extraction across diverse document types. Led end-to-end pipeline from annotation schema design to model training."
               - "<b>Result</b>: Ongoing"
-          - title: Domain specific Vision-Language Model for Information Extraction
+          - title: Domain Specific Vision-Language Model for Information Extraction
             period: Sep. 2024 - Jan. 2025
             description:
               - "<b>Contribution</b>: Fine-tuned a VLM for unstructured trade documents using task-specific prompting, pseudo-labeling, and efficient training techniques."
@@ -161,10 +161,10 @@ content:
 
           <div class="link-group">
             <span class="link-label">Lab:</span>
-            <a href="https://uilab.kr/" class="link-btn">UILab 🔗</a>
+            <a href="https://uilab.kr/" class="btn">UILab 🔗</a>
             
             <span class="link-label">Advisor:</span>
-            <a href="https://aliceoh9.github.io/" class="link-btn">Alice Oh 🔗</a>
+            <a href="https://aliceoh9.github.io/" class="btn">Alice Oh 🔗</a>
           </div>
       - layout: top-left
         title: KAIST
