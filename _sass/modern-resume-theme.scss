@@ -278,23 +278,22 @@ p.quote {
 @media (max-width: 768px) {
   .row.clearfix.layout {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column; /* 기존 row에서 column으로 변경 */
+    flex-wrap: nowrap; /* 줄바꿈 방지 */
   }
 
   .row.clearfix.layout .details {
-    flex: 0 0 30%; /* 모바일에서도 30%만 차지 */
-    max-width: 30%;
-    padding-right: 10px;
+    flex: 0 0 auto; /* 비율 대신 자동 크기 */
+    max-width: 100%; /* 전체 너비 사용 */
+    padding-right: 0; /* 패딩 제거 */
+    margin-bottom: 10px; /* 아래 여백 추가 */
   }
 
   .row.clearfix.layout .content {
-    flex: 0 0 70%; /* 나머지 70%를 본문이 사용 */
-    max-width: 70%;
+    flex: 1 1 auto; /* 남은 공간 사용 */
+    max-width: 100%; /* 전체 너비 사용 */
   }
 }
-
-
 
 @media (max-width: 768px) {
   body {
