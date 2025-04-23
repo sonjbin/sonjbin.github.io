@@ -96,7 +96,7 @@ content:
             period: Jan. 2024 - Mar. 2024
             description:
               - "<b>Contribution</b>: Built diverse synthetic datasets covering Korean and Chinese scripts to improve multilingual OCR robustness."
-              - "<b>Result</b>: Achieved 88% recognition accuracy across printed and handwritten samples."
+              - "<b>Result</b>: Improved recognition accuracy by 17% over the baseline, demonstrating robust performance across both printed and handwritten samples."
           - title: Document Image Classification
             period: Oct. 2023 - Nov. 2023
             description:
@@ -124,6 +124,7 @@ content:
       - layout: top
         title: Time-Aware Representation Learning for Time-Sensitive Question Answering
         sub_title: "Findings of the Association for Computational Linguistics: EMNLP 2023 (EMNLP-Findings 2023, Short)"
+        authors: '<b>Jungbin Son*</b>, Alice Oh'
        # caption: 2023 EMNLP Findings
         # link: [Click me](http://www.google.com)
         description: |
@@ -137,6 +138,7 @@ content:
       - layout: top
         title: An Efficient and Effective Document Deduplication by Using Similarity-Based Clustering
         sub_title: Korea Computer Congress 2021 (KCC 2021, 1577-1579.)
+        authors: '<b>Jungbin Son*</b>, Sunkyoung Kim, Minsoo Kim'
        # caption: 2023 EMNLP Findings
         # link: [Click me](http://www.google.com)
         description: |
