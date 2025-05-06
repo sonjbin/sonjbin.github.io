@@ -130,7 +130,7 @@ content:
         description: |
             - We addressed the problem that QA models could not understand time by 
             training with a new task and synthetic data. The model trained with Time-Context 
-            dependent Span Extraction (TCSE) outperforms baseline models up to 6.97 of the F1-score in the TimeQA dataset.
+            dependent Span Extraction (TCSE) outperforms baseline models up to 8.5 of the F1-score in the TimeQA dataset.
             
 
               <a href="https://aclanthology.org/2023.findings-emnlp.6/" class="btn">Paper 🔗</a>
