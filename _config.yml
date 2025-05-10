@@ -97,11 +97,11 @@ content:
             description:
               - "<b>Contribution</b>: Built diverse synthetic datasets covering Korean and Chinese scripts to improve multilingual OCR robustness."
               - "<b>Result</b>: Improved recognition accuracy by 17% over the baseline, demonstrating robust performance across both printed and handwritten samples."
-          - title: Document Image Classification
+          - title: Context-Aware Document Image Classification
             period: Oct. 2023 - Nov. 2023
             description:
-              - "<b>Contribution</b>: Developed robust document classification models for noisy ID images, including FAX documents. Built a zero-shot classifier for recognizing unseen document types."
-              - "<b>Result</b>: Achieved 98% classification accuracy and 99% zero-shot accuracy."
+              - "<b>Contribution</b>: Developed a context-aware document image classification model using multi-task learning, combining document classification and title generation."
+              - "<b>Result</b>: Achieved up to an 18% improvement over the baseline, with particularly notable gains on documents with similar layouts."
 
 
 
