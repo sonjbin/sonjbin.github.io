@@ -57,7 +57,10 @@ about_content: | # this will include new lines to allow paragraphs
 
     My work spans from designing models that combine vision and text to deploying them efficiently using VLLM-based inference frameworks.
     I'm especially interested in document language modeling, OCR integration, and scalable model serving for real-world applications.
-# Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+
+    <p>
+    <a href="assets/Portfolio_Jungbin_Son_202505.pdf" class="btn" target="_blank">📄 View My Portfolio (KR)</a>
+    </p>
 
 # You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
 #   - Lists
@@ -133,8 +136,8 @@ content:
             dependent Span Extraction (TCSE) outperforms baseline models up to 8.5 of the F1-score in the TimeQA dataset.
             
 
-              <a href="https://aclanthology.org/2023.findings-emnlp.6/" class="btn">Paper 🔗</a>
-              <a href="https://github.com/sonjbin/TCQA" class="btn">Code 🔗</a>
+              <a href="https://aclanthology.org/2023.findings-emnlp.6/" class="btn" target="_blank">Paper</a>
+              <a href="https://github.com/sonjbin/TCQA" class="btn" target="_blank">Code</a>
       - layout: top
         title: An Efficient and Effective Document Deduplication by Using Similarity-Based Clustering
         sub_title: Korea Computer Congress 2021 (KCC 2021, 1577-1579.)
@@ -146,7 +149,7 @@ content:
              data and implemented deduplicate algorithm using clustering. 
              The proposed method achieved 380 times faster runtime than previous deduplication algorithms, and it achieved 4% accuracy improvement.
             
-               <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10583367" class="btn">Paper 🔗</a>
+               <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10583367" class="btn" target="_blank">Paper</a>
             
   - title: Education
     layout: list
@@ -163,10 +166,10 @@ content:
 
           <div class="link-group">
             <span class="link-label">Lab:</span>
-            <a href="https://uilab.kr/" class="btn">UILab 🔗</a>
+            <a href="https://uilab.kr/" class="btn" target="_blank">UILab</a>
             
             <span class="link-label">Advisor:</span>
-            <a href="https://aliceoh9.github.io/" class="btn">Alice Oh 🔗</a>
+            <a href="https://aliceoh9.github.io/" class="btn" target="_blank">Alice Oh</a>
           </div>
       - layout: top-left
         title: KAIST
